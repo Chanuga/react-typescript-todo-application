@@ -42,17 +42,8 @@ function ToDos({ setField, saveToDo, todos, RemoveToDo, todo }: Props) {
             </div>
           </Form.Group>
           <div className="text-end">
-            {/* btn cancle */}
-            <Button
-              // onClick={handleCancel}
-              variant="danger"
-            >
-              Cancel
-            </Button>
-
             {/* btn save */}
             <Button
-              // disabled={isLoading}
               type="submit"
               style={{ margin: "5px" }}
               onClick={(e) => saveToDo(e)}
